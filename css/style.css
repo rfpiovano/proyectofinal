@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+.navbar {
+  background-color: #e40e80;
+  font-size: 2rem; }
+
+.nav-link {
+  font-family: 'Bungee Inline', cursive; }
+
+h1, h2 {
+  color: #f2f2f2; }
+
+h1 {
+  font-size: 4rem;
+  margin-top: 1.5rem; }
+
+h2 {
+  font-size: 3rem;
+  margin-top: 5px;
+  margin-bottom: 1.5rem; }
+
+.containerIndex {
+  display: flex; }
+
+.h1Index {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto; }
+
+.textoIndex {
+  justify-content: center;
+  text-align: center;
+  margin: auto; }
+
+.carouselContainer {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  text-align: center; }
+
+/* Estilos para el body de todas las paginas*/
+/* Establezco medida rem 1 rem = 10px */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to bottom, #212121, #252525, #2a292a, #2e2d2e, #333132, #42353b, #513845, #613b4e, #803b5d, #a0366a, #c22c76, #e40e80); }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem;
+  color: #f2f2f2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem; }
+
+/* Fin estilos para el body de todas las paginas*/
+/*Estilos para H*/
+h1, h2, h3, h4, h5 {
+  color: #f2f2f2;
+  font-family: 'Bungee Inline', cursive; }
+
+h1 {
+  font-size: 4rem;
+  margin-top: 1.5rem; }
+
+h2 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem; }
+
+h3 {
+  font-size: 2.5rem;
+  margin-left: 1.5rem; }
+
+h4 {
+  font-size: 2rem; }
+
+h5 {
+  font-size: 2.5rem; }
+
+/*Fin de estilos para H*/
+#redesFooter .nav-link {
+  color: white; }
+
+.textAbout {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 1.5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 1rem; }
+
+.containerAbout {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.btn:hover {
+  background-color: #e40e80; }
+
+.containerPedidos {
+  display: flex;
+  margin-bottom: 2rem; }
+
+.textPedidos {
+  justify-content: center;
+  text-align: center;
+  margin: auto; }
+
+.containerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem; }
+
+.buttonFont {
+  font-family: 'Bungee Inline', cursive; }
+
+.pedidosImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem; }
+
+@media only screen and (max-width: 991px) {
+  .containerMenu {
+    display: grid;
+    grid-template-columns: 1fr; } }

@@ -1,0 +1,21 @@
+
+.textAbout {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 1rem;
+}
+    
+
+.containerAbout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}   
